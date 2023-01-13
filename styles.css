@@ -1,0 +1,32 @@
+* {
+  font-family: sans-serif;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 1.5rem;
+  width: 15rem;
+  margin-bottom: 10px;
+  border: 2px solid lightgrey;
+  outline: none;
+}
+
+button {
+  height: 1.9rem;
+  width: 5rem;
+  border: 2px solid grey;
+}
+
+#isIdValidDiv {
+  height: 2rem;
+  width: 10rem;
+  border: 2px solid lightgrey;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

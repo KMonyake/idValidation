@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <h1>
+      Check whether id is valid
+    </h1>
+
+    <form>
+      <input type="text" id="id-input" maxlength="13" />
+      <button type="button" id="submit-btn">Validate</button>
+    </form>
+
+    <div class="results-container">
+      <label for="dobInput">Date Of Birth</label>
+      <input type="text" id="dobInput" disabled />
+      <label for="genderInput">Gender</label>
+      <input type="text" id="genderInput" disabled />
+      <label for="citizenshipInput">Is a citizen</label>
+      <input type="text" id="citizenshipInput" disabled />
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
